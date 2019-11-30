@@ -1,15 +1,19 @@
 /* Debug */
 
 .debug {
-  border: 1px solid red;
-  width: 1170px;
-  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.debug .container {
+  height: 100%;
 }
 
 .debug .container [class*="col-"] {
   float: left;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
 /* Framework */
@@ -20,15 +24,18 @@
   box-sizing: border-box;
 }
 
+
+.container {
+  max-width: 60%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+}
+
 .container:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.container {
-  height: 300px;
-  border: 1px solid black;
 }
 
 
