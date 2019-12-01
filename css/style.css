@@ -1,5 +1,5 @@
 .size_image {
-  height: 200px;
+  height: 150px;
 }
 
 .padding {
@@ -25,4 +25,12 @@ h2 {
 
 .border_bottom {
   border-bottom: 10px solid black;
+}
+
+.blue {
+  background-color: #428BCA;
+}
+
+.radius {
+  border-radius: 100px;
 }
